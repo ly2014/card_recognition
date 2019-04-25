@@ -1,0 +1,57 @@
+/**index.wxss**/
+
+page {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.upload_btn {
+  margin-top: 30rpx;
+  color: #ffffff;
+  background: linear-gradient(to right, #2399FE , #C6CBF4);
+  width: 100%;
+  border-radius: 64rpx;
+}
+
+.upload_img {
+  margin-top: 30rpx;
+  width: 100%;
+  height: 480rpx;
+}
+
+.name_text {
+  width: 100%;
+  text-align: left;
+  height: 100rpx;
+  padding-left: 36%;
+  margin-top: 50rpx;
+}
+
+.phone_text {
+  width: 100%;
+  text-align: left;
+  height: 100rpx;
+  padding-left: 36%;
+}
+
+.save_btn {
+  position: absolute;
+  bottom: 30rpx;
+  left: 30rpx;
+  color: #ffffff;
+  width: 40%;
+  background: linear-gradient(to right, #2399FE , #C6CBF4);
+  border-radius: 72rpx;
+}
+
+.clear_btn {
+  position: absolute;
+  bottom: 30rpx;
+  right: 30rpx;
+  color: #ffffff;
+  width: 40%;
+  background: linear-gradient(to left, #2399FE , #C6CBF4);
+  border-radius: 72rpx;
+}

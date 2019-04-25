@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+  <!-- 上传图片 -->
+  <button class="upload_btn" bindtap="doUpload">上传图片</button>
+  <image class="upload_img" src="{{coverImage}}" wx:if="{{coverImage}}"></image>
+  <view class="name_text" wx:if="{{name}}">姓名：{{name}}</view>
+  <view class="phone_text" wx:if="{{name}}">电话：{{phone}}</view>
+  <button class="save_btn" bindtap="doSave" wx:if="{{name}}">保存</button>
+  <button class="clear_btn" bindtap="doClear" wx:if="{{name}}">清空</button>
+</view>
